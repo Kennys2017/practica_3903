@@ -1,11 +1,11 @@
 <?php
     class  DB{
-        public $hostname;
-        public $login;
-        public $password;
-        public $baseName;
-        public $connection;
-        public $result;
+        private $hostname;
+        private $login;
+        private $password;
+        private $baseName;
+        private $connection;
+        private $result;
 
         /**
          * @param $hostname
